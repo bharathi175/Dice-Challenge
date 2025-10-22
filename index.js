@@ -10,8 +10,9 @@ var i2= document.querySelectorAll("img")[1]; //0 because index 0 th ku generate 
 i2.setAttribute("src", image2);
 if(random1>random2)
 {
-    document.querySelector("h1").innerHTML="plyaer 1 wins";
+    document.querySelector("h1").innerHTML="player 1 wins";
 }
 else{
     document.querySelector("h1").innerHTML="player 2 wins";
+
 }
